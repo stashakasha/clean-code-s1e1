@@ -49,11 +49,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -72,7 +74,8 @@ button:hover {
 }
 
 /* Heading */
-h3, label[for='add'] {
+h3, 
+label[for='add'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,7 +108,7 @@ label[for='add'] {
   margin: 0 0 20px;
 }
 
-input#add {
+input #add {
   width: 318px;
 }
 
@@ -134,22 +137,22 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 
-button.to-do__delete img {
+button .to-do__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.to-do__delete img:hover {
+button .to-do__delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#to-do__completed label {
+ul #to-do__completed label {
   text-decoration: line-through;
   color: #888;
 }
