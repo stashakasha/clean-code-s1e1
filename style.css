@@ -152,7 +152,7 @@
 }
 
 /* Completed */
-#to-do__completed .label {
+#completed .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -162,11 +162,11 @@
   display: none;
 }
 
-.to-do__edit-mode .text {
+.edit-mode .text {
   display: inline-block;
   width: 224px;
 }
 
-.to-do__edit-mode .label {
+.edit-mode .label {
   display: none;
 }
